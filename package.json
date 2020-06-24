@@ -1,0 +1,26 @@
+{
+  "name": "oFourneau",
+  "version": "1.0.0",
+  "description": "Cooking app",
+  "author": "Thibaut",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "deepmerge": "^4.2.2",
+    "fibers": "^5.0.0",
+    "nodemon": "^1.18.9",
+    "sass": "^1.26.8",
+    "sass-loader": "^8.0.2"
+  }
+}
