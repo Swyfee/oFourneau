@@ -3,13 +3,14 @@
     <v-app-bar
       color='#FFDD63'
       app
-      height="100"
+      height="120"
     >       
-    
-         <v-img height="90" max-width contain :src="require('~/components/logo.png')"   />
+    <div class="left">
+         <v-img height="100" contain :src="require('~/components/logo.png')" />
+    </div>     
          <v-btn  
-          width="200"
-          height="50"
+          width="250"
+          height="75"
           class="ma-4"
           color='#FAAF03'
           v-for="(item, i) in items"

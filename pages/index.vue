@@ -1,12 +1,12 @@
 <template>
-      <v-card width="750" class="mx-auto">
+      <v-card width="750" class="searchbar">
         <v-card-title>
-          Recherchez une recette ...
-          </v-card-title>
+            <input type="text" value="Choisissez une recette ..."/>
+        </v-card-title>
         </v-card> 
 </template>
 
-<script>
+<script >
 export default {
   layout: 'accueil'
 }
