@@ -1,25 +1,9 @@
 <template>
-    <v-flex
-      xs12
-      sm8
-      md6
-    >
-      <!-- <v-card>
-        <v-card-title class="headline">
-          This will lead to your recipies
+      <v-card width="750" class="mx-auto">
+        <v-card-title>
+          Recherchez une recette ...
           </v-card-title>
-        <v-card-actions>
-          <v-spacer />
-          <v-btn
-            color="primary"
-            nuxt
-            to="/recipies"
-          >
-            Continue
-          </v-btn>
-        </v-card-actions>
-      </v-card> -->
-    </v-flex>
+        </v-card> 
 </template>
 
 <script>

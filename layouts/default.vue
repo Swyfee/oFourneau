@@ -6,7 +6,7 @@
       height="100"
     >       
     
-         <v-img height="60" max-width contain :src="require('~/components/logo.png')"   />
+         <v-img height="90" max-width contain :src="require('~/components/logo.png')"   />
          <v-btn  
           width="200"
           height="50"
@@ -20,17 +20,11 @@
         </v-btn >
     
     </v-app-bar>
-
-
-    <!-- <v-img
-      :src="require('../components/back.jpg')"
-    > -->
           <v-main  class="default">
             <v-container>
               <nuxt />
             </v-container>
           </v-main>
-    <!-- </v-img> -->
     <v-navigation-drawer
       v-model="rightDrawer"
       :right="right"
