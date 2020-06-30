@@ -13,26 +13,37 @@
 .centreAccueil{
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
+
 .left{
     float:  left;
     padding-right: 200px ; 
 }
 .searchbar{
     margin: 0 auto;
-    margin-top: 175px;    
+    margin-top: 170px;    
+}
+.connection{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;   
+    width: 450px;
+    height: 60px;
+    border-color: #FF9900;
 }
 hr{
-    border: 5px solid #F59603;
+    border: 5px solid #FF9900;
     border-radius: 5px;
     width: 18em;
     
 }
 .v-btn:hover:before{
     opacity: 1 !important;
-    background-color: #F59603;
+    background-color: #FF9900;
 }
 .v-btn:focus:before{
     opacity: 1 !important;
-    background-color: #F59603;
+    background-color: #FF9900;
 }

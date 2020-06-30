@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar
-      color='#AFC96C'
+      color='#9CBA00'
       app
       height="120"
     >       
