@@ -22,3 +22,17 @@
     margin: 0 auto;
     margin-top: 175px;    
 }
+hr{
+    border: 5px solid #F59603;
+    border-radius: 5px;
+    width: 18em;
+    
+}
+.v-btn:hover:before{
+    opacity: 1 !important;
+    background-color: #F59603;
+}
+.v-btn:focus:before{
+    opacity: 1 !important;
+    background-color: #F59603;
+}

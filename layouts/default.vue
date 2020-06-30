@@ -1,23 +1,31 @@
 <template>
   <v-app>
     <v-app-bar
-      color='#FFDD63'
+      color='#AFC96C'
       app
       height="120"
     >       
     <div class="left">
-         <v-img height="100" contain :src="require('~/components/logo.png')" />
+         <a href="/"><v-img height="100" contain :src="require('~/components/logo.png')" /></a>
     </div>     
          <v-btn  
           width="250"
           height="75"
           class="ma-4"
-          color='#FAAF03'
+          color=transparent
           v-for="(item, i) in items"
           :key="i"
           :to="item.to"
       >
-           <v-toolbar-item-title v-text="item.title"/>
+      <div>
+            <br><br>
+            <div class="text-center">
+              <v-toolbar-item-title v-text="item.title"/>
+            </div>
+            <br>
+
+              <HR />
+          </div>
         </v-btn >
     
     </v-app-bar>
@@ -57,6 +65,10 @@ export default {
     return {
      
       items: [
+        {
+          title: 'Accueil',
+          to: '/',
+        },
         {
           title: 'Recettes',
           to: '/recette'

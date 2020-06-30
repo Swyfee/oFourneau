@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar
-      color='#FFDD63'
+      color='#AFC96C'
       app
       height="220"
     >
@@ -14,13 +14,21 @@
            width="250"
             height="80"
             class="ma-4" 
-            color='#FAAF03'
+            color=transparent
             v-for="(item, i) in items"
             :key="i"
             :to="item.to"
           >
-           <v-toolbar-item-title v-text="item.title"/>
-        </v-btn >
+          <div>
+            <br><br>
+            <div class="text-center">
+              <v-toolbar-item-title  v-text="item.title"/>
+            </div>
+            <br><br>
+
+              <HR/>
+          </div>
+           </v-btn >
         </div>
     </div>
     </v-app-bar>
@@ -61,20 +69,20 @@ export default {
     return {
       items: [
         {
+          title: 'Accueil',
+          to: '/',
+        },
+        {
           title: 'Recettes',
           to: '/recette',
-          color: "#F59603"
         },
         {
           title: 'Découverte',
           to: '/decouverte',
-          color: "#F59603"
         },
         {
           title: 'Ma Cuisine',
           to: '/macuisine',
-          color: "#F59603"
-
         }
       ],
       miniVariant: false,
