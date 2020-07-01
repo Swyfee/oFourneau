@@ -14,7 +14,7 @@
     </v-card-title>
   </v-card>
     <div class="text-center">
-      <v-btn rounded height="70" width="290" color="#FF9900">Connexion</v-btn>
+      <v-btn href='/macuisineco' rounded height="70" width="290" color="#FF9900">Connexion</v-btn>
     </div>
 </div>
 </template>

@@ -8,7 +8,34 @@
 .default{
     opacity: 0.80;
     background-image: url('../components/default.jpg');
+}
+.saumon{
+    opacity: 1;
+    background:transparent url('../components/saumon.png');
+    background-size: cover;
+    margin-right: 100px;    
+}
+.saumonAlign{
+    margin-left: 1300px;
+}
+.buttonAlign{
+    margin-left: 1320px;
+}
+.alignStep{
+    margin-left: 1270px;
+}
+.alignText{
+    margin-left: 1418px;
+}
 
+
+.saumonCard{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px grey solid;
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
 }
 .centreAccueil{
     margin-left: auto;
@@ -38,6 +65,10 @@ hr{
     border-radius: 5px;
     width: 18em;
     
+}
+.checkbox{
+    width: 30px; 
+    height: 30px; 
 }
 .v-btn:hover:before{
     opacity: 1 !important;

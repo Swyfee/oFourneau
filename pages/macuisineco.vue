@@ -1,5 +1,7 @@
 <template>
-
+<div>
+CONNECTE A MA CUISINE
+</div>
 </template>
 
 <script>
