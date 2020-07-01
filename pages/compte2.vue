@@ -23,7 +23,7 @@
         <br>
     </div>
     <div class="buttonAlign">
-      <v-btn  href='/compte3' rounded height="70" width="290" color="#FF9900">Continuer</v-btn>
+      <v-btn  href='/compte3' rounded height="70" width="290" color="#9CBA00">Continuer</v-btn>
       <br><br><br><br><br>
     </div>
         <div class="alignText">

@@ -78,3 +78,13 @@ hr{
     opacity: 1 !important;
     background-color: #FF9900;
 }
+.class1 {
+    background-color:#FF9900;
+  }
+  
+.class2 {
+    background-color: #9CBA00;           
+  }
+  .rounded-card{
+    border-radius:50px;
+}
