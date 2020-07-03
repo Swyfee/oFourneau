@@ -1,28 +1,38 @@
 <template>
 <div>
+    <br><br><br>
+<div class="text-center">
 <v-row
           align="center"
           justify="center"
           background = "none"
           style="height: auto;"
         >
-    <div class="text-center">
-        <v-card class="centreAccueil" max-width="800" 
+          <v-btn href='/recette' class="recetteCard" rounded height="100" width="300"  color="#FF9900"><h2>Retour</h2></v-btn>
+            <v-card class="centreAccueil" height="540px" max-width="1000" 
             elevation="24"
             outlined
             shaped
-                        color="#E8E7E6"
->
-    <v-card-subtitle class="black--text"><br>
-        <h2>Vous n'êtes pas connecté, pour accéder à cette fonctionnalité <br>connectez-vous en cliquant sur le bouton:</h2>
-    </v-card-subtitle><br>
-    <v-btn href='/macuisine' rounded height="70" width="290" color="#FF9900">Connexion</v-btn>
-      <br><br><br><h3>Pas de compte ?</h3>
-              <h3> La création de votre compte nous permettra juste de retenir vos préferences.</h3><br>
-            <v-btn href='/compte1' rounded height="50" width="450" color="#9CBA00">S'inscire</v-btn><br><br><br>
+            color="#E8E7E6">
+<v-card-title> <h2>Boeuf Bourguignon: Etape 1</h2></v-card-title>
+<v-card-text><h3>Dans un premier temps, pelez les oignons et découpez les en fines rondelles</h3></v-card-text>
+
   </v-card> 
-</div> 
+          <v-btn href='/etape2' class="recetteCard" rounded height="100" width="300"  color="#FF9900"><h2>Etape 2</h2></v-btn>
 </v-row>
+<br>
+<div class="text-center"><h3>Etape 1 sur 8</h3></div>
+<v-row align="center"
+          justify="center"
+          background = "none"
+          style="height: auto;">
+    <div><v-img height="20" contain :src="require('~/components/barreorange.png')" /></div> &nbsp;&nbsp;
+    <div><v-img height="20" contain :src="require('~/components/barreblanche.png')" /></div> &nbsp;&nbsp;
+    <div><v-img height="20" contain :src="require('~/components/barreblanche.png')" /></div> &nbsp;&nbsp;
+    <div><v-img height="20" contain :src="require('~/components/barreblanche.png')" /></div>
+
+</v-row>
+</div> 
 </div>
 </template>
 
