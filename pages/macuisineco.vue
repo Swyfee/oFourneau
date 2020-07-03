@@ -15,6 +15,8 @@
             max-width="374"
             elevation="24"
             outlined
+            shaped
+            color="#FF9900"
           >         
             <v-card-title
 :class="`${hover? 'class1': 'class2'}`">Proposer une recette</v-card-title>
@@ -32,6 +34,8 @@
             max-width="374"
             elevation="24"
             outlined
+            shaped
+            color="#FF9900"
           >
             <v-card-title
 :class="`${hover? 'class1': 'class2'}`">Mon frigo</v-card-title>
@@ -49,6 +53,8 @@
             max-width="374"
             elevation="24"
             outlined
+            shaped
+            color="#FF9900"
           >
           <v-card-title
 :class="`${hover? 'class1': 'class2'}`">Cuisine de saison</v-card-title>

@@ -79,7 +79,7 @@ export default {
         },
         {
           title: 'Ma Cuisine',
-          to: '/macuisine'
+          to: '/cuisinepasco'
         }
       ],
       miniVariant: false,

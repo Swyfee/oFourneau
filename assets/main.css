@@ -88,3 +88,26 @@ hr{
   .rounded-card{
     border-radius:50px;
 }
+.recetteCard{
+    margin-right: 50px;
+}
+.btnApercu{
+    margin-left:490px;
+}
+.apercuCard{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.pencher{
+    transform: rotate(-90deg);
+-moz-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg);
+-khtml-transform: rotate(-90deg);
+-ms-transform: rotate(-90deg);
+}
+.tiempo1{
+    margin-left: 115px;
+}
+.tiempo2{
+    margin-left: 125px;
+}

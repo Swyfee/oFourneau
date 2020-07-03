@@ -14,6 +14,8 @@
             max-width="374"
             elevation="24"
             outlined
+            shaped
+            color="#FF9900"
           >     
           
 <v-card-title :class="`${hover? 'class1': 'class2'}`"> Cuisine du monde  </v-card-title>
@@ -32,7 +34,8 @@
             max-width="374"
             elevation="24"
             outlined
-            class="mx-auto my-12"
+            shaped
+            color="#FF9900"
           >
             <v-card-title 
 :class="`${hover? 'class1': 'class2'}`">Cuisine française par régions</v-card-title> 
@@ -51,6 +54,8 @@
             max-width="374"
             elevation="24"
             outlined
+            shaped
+            color="#FF9900"
           >
           <v-card-title :class="`${hover? 'class1': 'class2'}`">Cuisine de saison</v-card-title>
             <v-img
