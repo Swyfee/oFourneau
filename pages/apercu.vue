@@ -74,7 +74,7 @@
           </v-row> 
           <br>
             <v-img height="50" contain :src="require('~/components/vieucompteur.png')" /><br>
-            <v-btn class="btnApercu" rounded height="70px" width="250"  color="#FF9900">Cuisiner !</v-btn>
+            <v-btn href='/etape1' class="btnApercu" rounded height="70px" width="250"  color="#FF9900">Cuisiner !</v-btn>
         </v-card>     
         </v-row> 
   </div>
