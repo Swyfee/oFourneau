@@ -17,12 +17,15 @@
             outlined
             shaped
             color="#FF9900"
+            href='/proposerrecette'
           >         
             <v-card-title
-:class="`${hover? 'class1': 'class2'}`">Proposer une recette</v-card-title>
+             
+    :class="`${hover? 'class1': 'class2'}`">Proposer une recette</v-card-title>
             <v-img
               height="600"
               :src="require('~/components/recette.jpg')" 
+
             />
           </v-card>
           </div>
